@@ -1,0 +1,14 @@
+body{
+    background-color:lightblue ;
+    font-family:'Times New Roman', Times, serif
+    
+}
+.nav-logo a img{
+    width: 110px;
+    height: 100px;
+}
+nav{
+    background-color: navy;
+
+
+}
