@@ -1,35 +1,36 @@
 body{
-    background-color:lightblue ;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(250, 224, 197) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;     
     
 }
 .nav-logo a img{
-    width: 110px;
+    width: 150px;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-       background-color: navy;
+       
 }
 .nav-links{
     display: flex;
     gap: 10px;
 }
  .nav-links a{
-    color: gray;
+    color: navy;
     text-decoration: none;
  } 
  .nav-links a:hover{
-    color: lightblue;
+    color: rgb(250, 224, 197);
+    background-color: blue;
+
  }
  .content{
     flex: 1;
  }
  footer{
-    background-color: navy;
     text-align: center;
-    color: lightblue;
+    color: navy;
     justify-content: center;
     align-items: center;
  }
